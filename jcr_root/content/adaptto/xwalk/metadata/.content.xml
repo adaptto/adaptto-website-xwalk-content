@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/metadata"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Metadata"
+        sling:resourceType="core/franklin/components/spreadsheet/v1/spreadsheet"
+        columns="[url,theme,robots,include-aside-bar,include-teaser-bar]"
+        hideInNav="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <row
+            jcr:primaryType="nt:unstructured"
+            include-aside-bar="false"
+            include-teaser-bar="false"
+            url="/speakers/**"/>
+        <row_1771373738
+            jcr:primaryType="nt:unstructured"
+            include-aside-bar="false"
+            include-teaser-bar="false"
+            robots="noindex, nofollow"
+            url="**/fragments/**"/>
+        <row_197756481
+            jcr:primaryType="nt:unstructured"
+            include-aside-bar="false"
+            include-teaser-bar="false"
+            robots="noindex, nofollow"
+            url="**/privacy/**"/>
+        <row_1694763774
+            jcr:primaryType="nt:unstructured"
+            include-teaser-bar="false"
+            theme="talk-detail"
+            url="**/schedule/**"/>
+    </jcr:content>
+</jcr:root>

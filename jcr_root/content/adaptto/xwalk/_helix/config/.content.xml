@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/configuration"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="config"
+        sling:resourceType="core/franklin/components/spreadsheet/v1/spreadsheet"
+        columns="[key,value]"
+        hideInNav="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <row
+            jcr:primaryType="nt:unstructured"
+            key="admin.role.author"
+            value="*@diva-e.com"/>
+        <row_1174853589
+            jcr:primaryType="nt:unstructured"
+            key="admin.role.author"
+            value="*@techacct.adobe.com"/>
+        <row_1370406119
+            jcr:primaryType="nt:unstructured"
+            key="admin.role.publish"
+            value="*@diva-e.com"/>
+        <row_1771921966
+            jcr:primaryType="nt:unstructured"
+            key="admin.role.publish"
+            value="*@techacct.adobe.com"/>
+    </jcr:content>
+</jcr:root>

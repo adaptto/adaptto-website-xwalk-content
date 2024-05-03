@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/headers"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Headers"
+        sling:resourceType="core/franklin/components/spreadsheet/v1/spreadsheet"
+        columns="[url,key,value]"
+        hideInNav="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <row_1364409941
+            jcr:primaryType="nt:unstructured"
+            key="access-control-allow-origin"
+            url="**"
+            value="*"/>
+        <row_1711300413
+            jcr:primaryType="nt:unstructured"
+            key="access-control-allow-methods"
+            url="**"
+            value="GET"/>
+    </jcr:content>
+</jcr:root>
