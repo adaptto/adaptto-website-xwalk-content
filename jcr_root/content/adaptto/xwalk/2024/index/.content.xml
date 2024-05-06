@@ -15,7 +15,29 @@
             sling:resourceType="core/franklin/components/root/v1/root">
             <section
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/franklin/components/section/v1/section"/>
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block_1585707285
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    cta1="/content/adaptto/xwalk/2024/conference"
+                    cta1Text="About adaptTo()"
+                    cta2="/content/adaptto/xwalk/2024/conference"
+                    cta2Text="Buy Ticket"
+                    fileReference="/content/dam/adaptto/xwalk/content/stage-header.jpg"
+                    model="stage-header"
+                    name="Stage Header"
+                    text="&lt;h2&gt;Save the Date&lt;/h2&gt;&#xA;&lt;p&gt;adaptTo() 2024&lt;br&gt;21st - 23rd October 2024 &lt;br&gt;Real-life conference&lt;/p&gt;"/>
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;h2&gt;Welcome to adaptTo() 2024 – Europe's Leading Adobe Experience Manager Developer Conference!?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Embark on a Journey of Digital Mastery in Berlin!&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mark your calendars for an extraordinary gathering of Adobe Experience Manager (AEM) enthusiasts at adaptTo() 2024, taking place in the heart of Berlin at the Kulturbrauerei, from October 21st to 23rd. This isn't just a conference; it's a beacon for digital pioneers, a symposium for the curious, and a celebration of innovation.&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why Should You Anticipate adaptTo() 2024?&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA; &lt;li&gt;&lt;p&gt;&lt;strong&gt;Elite Expertise&lt;/strong&gt;: Rub shoulders with the brightest minds in AEM development, from seasoned architects to visionary developers. This is where challenges meet solutions, and expertise is shared freely.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;p&gt;&lt;strong&gt;Future-Forward Sessions&lt;/strong&gt;: Engage with a diverse lineup of presentations, workshops, and keynotes designed to deepen your knowledge, enhance your skills, and ignite your creativity in the AEM realm.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;p&gt;&lt;strong&gt;Community Connection&lt;/strong&gt;: Find your tribe among a vibrant community of professionals who share your passion for digital excellence. Networking at adaptTo() goes beyond exchanging business cards – it's about building lasting connections.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;p&gt;&lt;strong&gt;Practical Learning&lt;/strong&gt;: Dive into hands-on labs and interactive showcases that bring theoretical knowledge to life. This is where you'll see the latest AEM features in action and learn how to implement them in your projects.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Get Ready for an Unforgettable Experience:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA; &lt;li&gt;&lt;p&gt;&lt;strong&gt;Inspirational Stories&lt;/strong&gt;: Be inspired by industry leaders who are at the forefront of digital innovation. Their journeys from idea to execution are not just talks but a blueprint for what's possible.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;p&gt;&lt;strong&gt;Visionary Outlook&lt;/strong&gt;: Discover what the future holds for AEM and digital experiences at large. adaptTo() 2024 is your window to emerging trends and technologies.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+                <block
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    model="embed-youtube"
+                    name="Embed YouTube"
+                    videoUrl="https://www.youtube.com/watch?v=rNl-uXa530Q"/>
+            </section>
         </root>
     </jcr:content>
 </jcr:root>

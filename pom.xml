@@ -95,6 +95,23 @@
       </plugin>
 
     </plugins>
+    <pluginManagement>
+      <plugins>
+
+        <plugin>
+          <groupId>io.wcm.maven.plugins</groupId>
+          <artifactId>wcmio-content-package-maven-plugin</artifactId>
+          <configuration>
+            <excludeFiles combine.children="append">
+              <exclude>.*/cqdam\.machine\..*</exclude>
+              <exclude>.*/cqdam\.metadata\..*</exclude>
+              <exclude>.*/haystack0.binary</exclude>
+            </excludeFiles>
+          </configuration>
+        </plugin>
+
+      </plugins>
+    </pluginManagement>
   </build>
 
 </project>

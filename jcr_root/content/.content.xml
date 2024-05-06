@@ -8,9 +8,12 @@
     <campaigns/>
     <projects/>
     <experience-fragments/>
-    <outbound-marketing/>
     <cq:tags/>
     <usergenerated/>
     <launches/>
+    <outbound-marketing/>
+    <betacloudProject/>
+    <xwalk-test/>
+    <test-site/>
     <adaptto/>
 </jcr:root>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/content/adaptto/xwalk"/>
+    <filter root="/content/dam/adaptto/xwalk"/>
     <filter root="/conf/adaptto/xwalk"/>
 </workspaceFilter>
