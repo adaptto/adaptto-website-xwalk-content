@@ -9,7 +9,7 @@
         sling:configPropertyInherit="true"
         sling:resourceType="core/franklin/shell/components/configuration/page"
         auxiliaryScripts="module:scripts/editor-support.js"
-        edgeHost="live"
+        edgeHost="preview"
         owner="adaptto"
         repo="adaptto-website-xwalk"
         jcr:mixinTypes="[cq:ReplicationStatus]"

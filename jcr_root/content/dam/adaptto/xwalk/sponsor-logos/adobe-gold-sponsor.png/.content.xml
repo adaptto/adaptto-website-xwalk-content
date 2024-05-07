@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        dam:jobId="02aa04fe-daf9-4ee9-90c6-0ced35c5a30b"
+        dam:processingId="502b7fdb-4ea6-4d33-829a-1cbf348121fe"
+        dam:processingRenditions="[cqdam.text.txt,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cq5dam.preview.pdf,cqdam.metadata.xml,cq5dam.preview.mp4]"
+        dam:processingRequestedDate="{Date}2024-05-07T13:14:32.203Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:primaryType="dam:AssetContent"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/landscape]"
+            dam:Bitsperpixel="{Long}32"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}1.7358940839767456"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}5.554861068725586"
+            dam:predictedColors="{Long}[1083,12011,30006]"
+            dam:Progressive="no"
+            dam:size="{Long}33425"
+            dc:format="image/png"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}125"
+            tiff:ImageWidth="{Long}400"
+            xmp:CreateDate="{Date}2024-05-07T15:12:10.000+02:00"
+            xmp:CreatorTool="Adobe Photoshop 25.7 (Windows)"
+            xmp:MetadataDate="{Date}2024-05-07T15:13:20.000+02:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:89b56fdc-f6b2-9d44-b0b7-ca61ef2fc990"
+            xmpMM:InstanceID="xmp.iid:6a58a470-0d78-cf47-b09e-61bc96182c11"
+            xmpMM:OriginalDocumentID="xmp.did:e197d1cc-eef7-af41-b309-d4441ad97997"
+            xmp:ModifyDate="{Date}2024-05-07T15:13:20.000+02:00">
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.8261"
+                    name="RED"
+                    rank="{Long}1"
+                    rgb="{Long}[246,9,2]"/>
+                <color2
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1125"
+                    name="BLACK"
+                    rank="{Long}2"
+                    rgb="{Long}[0,0,0]"/>
+                <color3
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.0614"
+                    name="TAN"
+                    rank="{Long}3"
+                    rgb="{Long}[177,146,39]"/>
+            </dam:colorDistribution>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <logo
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.832"
+                    isCustom="{Boolean}false"
+                    name="logo"/>
+                <editorial_photography
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.794"
+                    isCustom="{Boolean}false"
+                    name="editorial photography"/>
+                <shape
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.768"
+                    isCustom="{Boolean}false"
+                    name="shape"/>
+                <alphabet
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.758"
+                    isCustom="{Boolean}false"
+                    name="alphabet"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditionsMetadata jcr:primaryType="nt:unstructured">
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}125"
+                imageWidth="{Long}400"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}125"
+                imageWidth="{Long}400"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}44"
+                imageWidth="{Long}140"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}100"
+                imageWidth="{Long}319"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}15"
+                imageWidth="{Long}48"/>
+        </renditionsMetadata>
+    </jcr:content>
+</jcr:root>
