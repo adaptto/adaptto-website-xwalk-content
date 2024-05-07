@@ -3,6 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:isDelivered="{Boolean}false"
+        cq:robotsTags="[noindex,nofollow]"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="nav"
@@ -30,5 +31,6 @@
                     text="&lt;ul&gt;&#xA; &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index.html&quot;&gt;HOME&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;SIGN UP&lt;/a&gt;&lt;br&gt;&#xA;  &lt;ul&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;Tickets&lt;/a&gt;&lt;/li&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;Call for Papers&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/conference&quot;&gt;CONFERENCE&lt;/a&gt;&lt;br&gt;&#xA;  &lt;ul&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/conference&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/conference&quot;&gt;Speaker Application&lt;/a&gt;&lt;/li&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/conference&quot;&gt;Program Committee&lt;/a&gt;&lt;/li&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/conference&quot;&gt;Code of Conduct&lt;/a&gt;&lt;/li&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/conference&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;SPONSORS&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;VENUE&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;NEWSLETTER&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;ARCHIVE&lt;/a&gt;&lt;br&gt;&#xA;  &lt;ul&gt;&#xA;   &lt;li&gt;&lt;a href=&quot;/content/adaptto/xwalk/2024/index&quot;&gt;Talk Archive&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
             </section_1874176248>
         </root>
+        <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
