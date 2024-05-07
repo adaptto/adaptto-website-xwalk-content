@@ -2,6 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:primaryType="dam:Asset">
     <jcr:content
+        cq:isDelivered="{Boolean}false"
         dam:jobId="02aa04fe-daf9-4ee9-90c6-0ced35c5a30b"
         dam:processingId="c8dfc180-6d1c-438b-83b9-f884ed85ac1c"
         dam:processingRenditions="[cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.319.319.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cq5dam.preview.mp4,cqdam.machine.metadata.tags.json,cq5dam.preview.pdf,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.colors.json,cqdam.text.txt,cqdam.machine.metadata.features.json]"

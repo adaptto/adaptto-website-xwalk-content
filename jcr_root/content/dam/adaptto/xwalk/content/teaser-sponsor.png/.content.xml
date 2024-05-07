@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        dam:jobId="e9815c60-770f-41a5-ae44-e4e5b10473d2"
+        dam:processingId="b0c79a21-4c70-4e78-bea6-42a07f8315c0"
+        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.features.json,cqdam.machine.metadata.colors.json,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cqdam.metadata.xml,cq5dam.preview.mp4,cq5dam.thumbnail.140.100.png]"
+        dam:processingRequestedDate="{Date}2024-05-07T13:41:16.702Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:primaryType="dam:AssetContent"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/landscape]"
+            dam:Bitsperpixel="{Long}32"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}3.7495312690734863"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}6.665833473205566"
+            dam:predictedColors="{Long}[10073,33027]"
+            dam:Progressive="no"
+            dam:size="{Long}38960"
+            dc:format="image/png"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}270"
+            tiff:ImageWidth="{Long}480"
+            xmp:CreateDate="{Date}2024-05-07T15:38:52.000+02:00"
+            xmp:CreatorTool="Adobe Photoshop 25.7 (Windows)"
+            xmp:MetadataDate="{Date}2024-05-07T15:40:45.000+02:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:fce3fc4a-7ac6-f84c-a251-9883f6dcbcdf"
+            xmpMM:InstanceID="xmp.iid:5b846447-9114-a94d-ad3d-72c9b240c4d8"
+            xmpMM:OriginalDocumentID="xmp.did:51df877d-df78-3c40-a03a-25378e8f00b5"
+            xmp:ModifyDate="{Date}2024-05-07T15:40:45.000+02:00">
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <text_message
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.949"
+                    isCustom="{Boolean}false"
+                    name="text message"/>
+                <telegram
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.86"
+                    isCustom="{Boolean}false"
+                    name="telegram"/>
+                <web_icon
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.843"
+                    isCustom="{Boolean}false"
+                    name="web icon"/>
+                <clipart
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.843"
+                    isCustom="{Boolean}false"
+                    name="clipart"/>
+                <speech
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.828"
+                    isCustom="{Boolean}false"
+                    name="speech"/>
+                <editorial_photography
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.805"
+                    isCustom="{Boolean}false"
+                    name="editorial photography"/>
+                <texting
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.783"
+                    isCustom="{Boolean}false"
+                    name="texting"/>
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.755"
+                    isCustom="{Boolean}false"
+                    name="text"/>
+            </predictedTags>
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.7273"
+                    name="LIGHT_BLUE"
+                    rank="{Long}1"
+                    rgb="{Long}[0,159,234]"/>
+                <color2
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.2727"
+                    name="TURQUOISE"
+                    rank="{Long}2"
+                    rgb="{Long}[2,152,233]"/>
+            </dam:colorDistribution>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditionsMetadata jcr:primaryType="nt:unstructured">
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}27"
+                imageWidth="{Long}48"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}79"
+                imageWidth="{Long}140"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}270"
+                imageWidth="{Long}480"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}179"
+                imageWidth="{Long}319"/>
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}270"
+                imageWidth="{Long}480"/>
+        </renditionsMetadata>
+    </jcr:content>
+</jcr:root>
