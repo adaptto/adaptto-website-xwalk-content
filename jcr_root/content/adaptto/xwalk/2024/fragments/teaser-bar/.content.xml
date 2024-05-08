@@ -30,7 +30,7 @@
                         fileReference="/content/dam/adaptto/xwalk/content/teaser-people.png"
                         model="teaser-bar-item"
                         name="Teaser Bar Item"
-                        text="&lt;p&gt;&lt;span class=&quot;NormalTextRun SCXW6232269 BCX0&quot;&gt;Attending a conference is always &lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW6232269 BCX0&quot;&gt;a good idea&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW6232269 BCX0&quot;&gt;. Discover the benefits of the face-to-face networking knowledge sharing you get from adaptTo()&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW6232269 BCX0&quot;&gt;.&lt;/span&gt;&lt;/p&gt;"
+                        text="&lt;p&gt;Attending a conference is always a good idea. Discover the benefits of the face-to-face networking knowledge sharing you get from adaptTo().&lt;/p&gt;"
                         title="Why attend?"
                         titleType="h1"/>
                     <item_1252145173
@@ -41,7 +41,7 @@
                         fileReference="/content/dam/adaptto/xwalk/content/teaser-sponsor.png"
                         model="teaser-bar-item"
                         name="Teaser Bar Item"
-                        text="&lt;p&gt;&lt;span class=&quot;TextRun SCXW31850522 BCX0&quot; lang=&quot;EN&quot; xml:lang=&quot;EN&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW31850522 BCX0&quot;&gt;Share your company's message with some of the brightest minds in the community and take advantage of our adaptTo() sponsorship benefits packages.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"
+                        text="&lt;p&gt;Share your company's message with some of the brightest minds in the community and take advantage of our adaptTo() sponsorship benefits packages.&lt;/p&gt;"
                         title="Why become a Sponsor?"
                         titleType="h1"/>
                     <item_1066456507
@@ -52,7 +52,7 @@
                         fileReference="/content/dam/adaptto/xwalk/content/teaser-people.png"
                         model="teaser-bar-item"
                         name="Teaser Bar Item"
-                        text="&lt;p&gt;&lt;span class=&quot;NormalTextRun SCXW162562692 BCX0&quot;&gt;adaptTo&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW162562692 BCX0&quot;&gt;() relies on the active participation of people, who love what they do and love to &lt;/span&gt;&lt;span class=&quot;NormalTextRun SpellingErrorV2Themed SCXW162562692 BCX0&quot;&gt;showcast&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW162562692 BCX0&quot;&gt; their ideas. &lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW162562692 BCX0&quot;&gt;Don't&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW162562692 BCX0&quot;&gt; hesitate, the stage is all yours.&lt;/span&gt;&lt;/p&gt;"
+                        text="&lt;p&gt;adaptTo() relies on the active participation of people, who love what they do and love to showcast their ideas. Don't hesitate, the stage is all yours.&lt;/p&gt;"
                         title="Why become a speaker?"
                         titleType="h1"/>
                     <item_1995147706
@@ -63,7 +63,7 @@
                         fileReference="/content/dam/adaptto/xwalk/content/teaser-archive.png"
                         model="teaser-bar-item"
                         name="Teaser Bar Item"
-                        text="&lt;p&gt;&lt;span class=&quot;NormalTextRun SCXW80479782 BCX0&quot;&gt;adaptTo&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW80479782 BCX0&quot;&gt;() is not a new event. So please &lt;/span&gt;&lt;span class=&quot;NormalTextRun AdvancedProofingIssueV2Themed SCXW80479782 BCX0&quot;&gt;take a look&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW80479782 BCX0&quot;&gt; in our archive and see what was said and done in the previous years.&lt;/span&gt;&lt;/p&gt;"
+                        text="&lt;p&gt;adaptTo() is not a new event. So please take a look in our archive and see what was said and done in the previous years.&lt;/p&gt;"
                         title="Take a look back"
                         titleType="h1"/>
                 </block>
