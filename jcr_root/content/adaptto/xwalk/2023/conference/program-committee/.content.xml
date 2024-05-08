@@ -27,6 +27,7 @@
                 <block
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/franklin/components/block/v1/block"
+                    key-value="{Boolean}true"
                     model="speaker-gallery"
                     name="Speaker Gallery"
                     speakers="Carsten Ziegeler, Robert Munteanu, Stefan Seifert"/>
