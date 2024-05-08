@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Edit anything with the Universal Editor"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        image="https://i.ytimg.com/vi/COfvk_4ULi8/maxresdefault.jpg"
+        pageTitle="Edit anything with the Universal Editor - adaptTo() 2023"
+        presentation="https://adapt.to/2023/presentations/adaptto-2023-edit-anything-with-the-universal-editor-sharanya-vinod-artur-kudlacz.pdf"
+        speakers="Sharanya Vinod, Artur Kudlacz"
+        video="https://youtu.be/COfvk_4ULi8"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p&gt;The Universal Editor is the next generation of AEM in-context page editor and it solves the current limitations of the AEM Page Editor or SPA Editor. It is independent of frameworks, rendering engines, and data sources - thus providing all the freedom the developers are seeking and making it truly universal. All it requires is a rendered HTML with the required instrumentation.&lt;/p&gt;&#xA;&lt;p&gt;In this session, you will learn all about the new Universal Editor, its architecture, currently available features, and a demo showcasing instrumenting a simple app to be editable on the Universal Editor.&lt;/p&gt;"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

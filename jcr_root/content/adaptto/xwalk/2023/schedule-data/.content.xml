@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/spreadsheet"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="schedule-data"
+        sling:resourceType="core/franklin/components/spreadsheet/v1/spreadsheet"
+        columns="[Day,Track,Start,End,Entry,Duration,FAQ,Type,Speakers]"
+        hideInNav="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <row
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            End="25.09.2023 09:00"
+            Entry="--- Day 1 ---"
+            Start="25.09.2023 09:00"
+            Type="day"/>
+        <row_1166941036
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="60"
+            End="25.09.2023 10:00"
+            Entry="Registration &amp; Breakfast"
+            Start="25.09.2023 09:00"
+            Type="break"/>
+        <row_558401870
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="20"
+            End="25.09.2023 10:20"
+            Entry="Opening Words"
+            Speakers="Roman Müller, Stefan Seifert"
+            Start="25.09.2023 10:00"
+            Type="other"/>
+        <row_108210093
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 10:55"
+            Entry="whats-up-with-core-components"
+            FAQ="5"
+            Start="25.09.2023 10:20"
+            Type="talk"/>
+        <row_295565134
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 11:30"
+            Entry="edit-anything-with-the-universal-editor"
+            FAQ="5"
+            Start="25.09.2023 10:55"
+            Type="talk"/>
+        <row_523497733
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 12:05"
+            Entry="unleashing-web-development-power-using-aem-headless-with-hybrid-rendering-frontend-frameworks"
+            FAQ="5"
+            Start="25.09.2023 11:30"
+            Type="talk"/>
+        <row_1592749197
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="85"
+            End="25.09.2023 13:30"
+            Entry="Lunch Break"
+            Start="25.09.2023 12:05"
+            Type="break"/>
+        <row_1301927017
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 14:05"
+            Entry="aem-headless-with-wcmio-site-api"
+            FAQ="5"
+            Start="25.09.2023 13:30"
+            Type="talk"/>
+        <row_1668671935
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 14:40"
+            Entry="achieving-agility-and-flexibility-with-aem-hybrid-implementation"
+            FAQ="5"
+            Start="25.09.2023 14:05"
+            Type="talk"/>
+        <row_1486252211
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 15:15"
+            Entry="the-curious-case-of-misrendered-json"
+            FAQ="5"
+            Start="25.09.2023 14:40"
+            Type="talk"/>
+        <row_1044135319
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="15"
+            End="25.09.2023 15:30"
+            Entry="Break"
+            Start="25.09.2023 15:15"
+            Type="break"/>
+        <row_2036265045
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 16:05"
+            Entry="rapid-development-environments-for-aem-cloud-service"
+            FAQ="5"
+            Start="25.09.2023 15:30"
+            Type="talk"/>
+        <row_606517257
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 16:40"
+            Entry="automated-ci-with-aem-cloud-service"
+            FAQ="5"
+            Start="25.09.2023 16:05"
+            Type="talk"/>
+        <row_1197341713
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="20"
+            End="25.09.2023 17:00"
+            Entry="Coffee Break - sponsored by Hirobe"
+            Start="25.09.2023 16:40"
+            Type="break"/>
+        <row_1106653081
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 17:35"
+            Entry="dispatcher-caching-best-practices-for-ttl-based-optimization"
+            FAQ="5"
+            Start="25.09.2023 17:00"
+            Type="talk"/>
+        <row_1286117547
+            jcr:primaryType="nt:unstructured"
+            Day="1"
+            Duration="30"
+            End="25.09.2023 18:10"
+            Entry="integrate-grow-repeat-how-websight-real-time-dxp-provides-a-way-to-break-out-of-the-content-centric-model"
+            FAQ="5"
+            Start="25.09.2023 17:35"
+            Type="talk"/>
+        <row_1330685029
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            End="26.09.2023 09:00"
+            Entry="--- Day 2 ---"
+            Start="26.09.2023 09:00"
+            Type="day"/>
+        <row_323922128
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="45"
+            End="26.09.2023 09:50"
+            Entry="edge-delivery-services-getting-started-with-document-based-authoring"
+            FAQ="5"
+            Start="26.09.2023 09:00"
+            Type="talk"/>
+        <row_1978823752
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="30"
+            End="26.09.2023 10:25"
+            Entry="building-adaptto-website-with-edge-delivery-services"
+            FAQ="5"
+            Start="26.09.2023 09:50"
+            Type="talk"/>
+        <row_1613458178
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="15"
+            End="26.09.2023 10:40"
+            Entry="Break"
+            Start="26.09.2023 10:25"
+            Type="break"/>
+        <row_1704243220
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="30"
+            End="26.09.2023 11:15"
+            Entry="aem-headless-a-glimpse-of-developer-tools"
+            FAQ="5"
+            Start="26.09.2023 10:40"
+            Type="talk"/>
+        <row_1402902398
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="30"
+            End="26.09.2023 11:50"
+            Entry="optimising-graphql-delivery-in-aem"
+            FAQ="5"
+            Start="26.09.2023 11:15"
+            Type="talk"/>
+        <row_211038998
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="30"
+            End="26.09.2023 12:20"
+            Entry="panel-discussion-aem-headless"
+            FAQ="0"
+            Start="26.09.2023 11:50"
+            Type="talk"/>
+        <row_1139654836
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="80"
+            End="26.09.2023 13:40"
+            Entry="Lunch Break - sponsored by Adobe"
+            Start="26.09.2023 12:20"
+            Type="break"/>
+        <row_546721964
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="30"
+            End="26.09.2023 14:15"
+            Entry="build-super-fast-storefront-experiences-with-edge-delivery-services-and-adobe-commerce"
+            FAQ="5"
+            Start="26.09.2023 13:40"
+            Type="talk"/>
+        <row_1349937492
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="20"
+            End="26.09.2023 14:40"
+            Entry="tenant-specific-vanity-urls-with-aem"
+            FAQ="5"
+            Start="26.09.2023 14:15"
+            Type="talk"/>
+        <row_1088770833
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="15"
+            End="26.09.2023 14:55"
+            Entry="Break"
+            Start="26.09.2023 14:40"
+            Type="break"/>
+        <row_1011940303
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="20"
+            End="26.09.2023 15:20"
+            Entry="evolution-of-the-aemaacs-build-pipeline"
+            FAQ="5"
+            Start="26.09.2023 14:55"
+            Type="talk"/>
+        <row_2121787079
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="30"
+            End="26.09.2023 15:55"
+            Entry="extending-aem-authoring-experience-through-javascript-extension"
+            FAQ="5"
+            Start="26.09.2023 15:20"
+            Type="talk"/>
+        <row_1657791590
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="20"
+            End="26.09.2023 16:15"
+            Entry="Coffee Break - sponsored by Eurowings Digital"
+            Start="26.09.2023 15:55"
+            Type="break"/>
+        <row_403308140
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="120"
+            End="26.09.2023 18:15"
+            Entry="playground-session-meet-the-experts"
+            Start="26.09.2023 16:15"
+            Type="talk"/>
+        <row_2035878860
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="285"
+            End="26.09.2023 23:00"
+            Entry="Evening Event: Dinner &amp; Networking"
+            Start="26.09.2023 18:15"
+            Type="break"/>
+        <row_246969199
+            jcr:primaryType="nt:unstructured"
+            Day="2"
+            Duration="60"
+            End="26.09.2023 19:30"
+            Entry="Sling Committer Round Table"
+            Start="26.09.2023 18:30"
+            Type="break"/>
+        <row_603656436
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            End="27.09.2023 09:00"
+            Entry="--- Day 3 ---"
+            Start="27.09.2023 09:00"
+            Type="day"/>
+        <row_660631985
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 09:35"
+            Entry="seamless-ai-powered-search-solution-merging-aem-sites-and-chatbottery-for-an-enhanced-user-experience"
+            FAQ="5"
+            Start="27.09.2023 09:00"
+            Type="talk"/>
+        <row_2022849833
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 10:10"
+            Entry="marketing-technology-without-sacrificing-performance-a-web-developers-guide-to-ensuring-experience-success"
+            FAQ="5"
+            Start="27.09.2023 09:35"
+            Type="talk"/>
+        <row_1244678076
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="15"
+            End="27.09.2023 10:25"
+            Entry="Break"
+            Start="27.09.2023 10:10"
+            Type="break"/>
+        <row_1570642589
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 11:00"
+            Entry="where-to-render-that-is-the-question"
+            FAQ="5"
+            Start="27.09.2023 10:25"
+            Type="talk"/>
+        <row_1205253910
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 11:35"
+            Entry="how-to-improve-the-backend-performance-of-your-aem-application"
+            FAQ="5"
+            Start="27.09.2023 11:00"
+            Type="talk"/>
+        <row_572728918
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="85"
+            End="27.09.2023 13:00"
+            Entry="Lunch Break"
+            Start="27.09.2023 11:35"
+            Type="break"/>
+        <row_1777553805
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 13:35"
+            Entry="api-first-and-rest-can-they-complement-each-other"
+            FAQ="5"
+            Start="27.09.2023 13:00"
+            Type="talk"/>
+        <row_1361963463
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 14:10"
+            Entry="sling-applications-a-devops-perspective"
+            FAQ="5"
+            Start="27.09.2023 13:35"
+            Type="talk"/>
+        <row_739826857
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 14:45"
+            Entry="get-your-aem-together-aem-compose-the-ultimate-devex-tool"
+            FAQ="5"
+            Start="27.09.2023 14:10"
+            Type="talk"/>
+        <row_41598296
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="15"
+            End="27.09.2023 15:00"
+            Entry="Break"
+            Start="27.09.2023 14:45"
+            Type="break"/>
+        <row_957153367
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 15:35"
+            Entry="bullseye-adobe-target-extras"
+            FAQ="5"
+            Start="27.09.2023 15:00"
+            Type="talk"/>
+        <row_908491296
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="30"
+            End="27.09.2023 16:10"
+            Entry="dont-reduce-dispatcher-testing-to-an-afterthought"
+            FAQ="5"
+            Start="27.09.2023 15:35"
+            Type="talk"/>
+        <row_1456329814
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="20"
+            End="27.09.2023 16:30"
+            Entry="Coffee Break"
+            Start="27.09.2023 16:10"
+            Type="break"/>
+        <row_1077653843
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="60"
+            End="27.09.2023 17:30"
+            Entry="lightning-talks"
+            Start="27.09.2023 16:30"
+            Type="talk"/>
+        <row_2073890324
+            jcr:primaryType="nt:unstructured"
+            Day="3"
+            Duration="10"
+            End="27.09.2023 17:40"
+            Entry="Closing Words"
+            FAQ="other"
+            Speakers="Stefan Seifert"
+            Start="27.09.2023 17:30"
+            Type="other"/>
+    </jcr:content>
+</jcr:root>

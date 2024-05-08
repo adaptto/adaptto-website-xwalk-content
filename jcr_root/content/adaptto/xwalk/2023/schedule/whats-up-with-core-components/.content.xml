@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="What’s up with Core Components?"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        image="https://i.ytimg.com/vi/46d9od04BJQ/maxresdefault.jpg"
+        pageTitle="What’s up with Core Components? - adaptTo() 2023"
+        presentation="https://adapt.to/2023/presentations/adaptto-2023-whats-up-with-core-components-vlad-bailescu.pdf"
+        source-code="https://github.com/adobe/aem-core-wcm-components/"
+        speakers="Vlad Băilescu"
+        video="https://youtu.be/46d9od04BJQ"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;ul&gt;&#xA; &lt;li&gt;Showcasing the latest additions to Core Components&lt;/li&gt;&#xA; &lt;li&gt;Introduction to the Form Components and Email Components&lt;/li&gt;&#xA; &lt;li&gt;Future of Core Components&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

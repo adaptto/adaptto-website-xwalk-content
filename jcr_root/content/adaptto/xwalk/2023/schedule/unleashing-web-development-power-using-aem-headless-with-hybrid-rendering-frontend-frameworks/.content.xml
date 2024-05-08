@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Unleashing Web Development Power: Using AEM Headless with Hybrid Rendering Frontend Frameworks"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        image="https://i.ytimg.com/vi/vkRuh7cEaxw/maxresdefault.jpg"
+        pageTitle="Unleashing Web Development Power: Using AEM Headless with Hybrid Rendering Frontend Frameworks - adaptTo() 2023"
+        presentation="https://adapt.to/2023/presentations/adaptto-2023-unleashing-web-development-power-using-aem-headless-with-hybrid-rendering-frontend-frameworks-duy-nguyen-lucian-ghita.pdf"
+        speakers="Duy Nguyen, Lucian Ghita"
+        video="https://youtu.be/vkRuh7cEaxw"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p&gt;Unlock the potential of AEM Headless and innovative hybrid rendering frontend frameworks in our engaging session for AEM developers. Our goal is to optimize your web development workflow, enabling you to create highly interactive websites. Experience the flexibility provided by AEM Headless, as it allows you to focus on your favorite stack, such as React, Next.JS, SvelteKit, or Astro while effortlessly tapping into structured content stored in AEM.&lt;/p&gt;&#xA;&lt;p&gt;In this session, you will learn:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA; &lt;li&gt;How to build and deploy highly interactive websites using AEM Headless and Next.js.&lt;/li&gt;&#xA; &lt;li&gt;The benefits of decoupling frontend development from backend content management with AEM Headless.&lt;/li&gt;&#xA; &lt;li&gt;How in-context WYSIWYG editing with Universal Editor simplifies content updates for hybrid rendered apps.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;By the end of this presentation, you will have a solid understanding of how AEM Headless and hybrid rendering frontend frameworks can work together in offering speed, flexibility, and an enhanced developer experience. Don't miss this opportunity to transform your web development process and unlock new possibilities with AEM Headless and cutting-edge frontend frameworks.&lt;/p&gt;"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
