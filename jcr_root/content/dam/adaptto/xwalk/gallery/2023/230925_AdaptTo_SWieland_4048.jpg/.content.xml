@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:ns1_1_="http://cipa.jp/exif/1.0/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:lr="http://ns.adobe.com/lightroom/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        dam:jobId="3711820b-3703-444c-bf2c-846bd080d849"
+        dam:processingId="c29232ec-51a7-44e0-8294-ea5c273b9ed8"
+        dam:processingRenditions="[cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cq5dam.thumbnail.319.319.png,cq5dam.preview.mp4,cqdam.machine.metadata.features.json,cqdam.text.txt,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cqdam.metadata.xml]"
+        dam:processingRequestedDate="{Date}2024-05-08T12:58:43.654Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:primaryType="dam:AssetContent"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for jpg files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for jpg files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for jpg files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/landscape]"
+            dam:Bitsperpixel="{Long}24"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}13.88888931274414"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}27.77777862548828"
+            dam:predictedColors="{Long}[10100]"
+            dam:Progressive="no"
+            dam:size="{Long}922163"
+            dc:creator="[Stefan Wieland]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:description="adaptTo() 2023 - Europe's leading AEM Developer Conference, 25. September 2023 at Berliner Kesselhaus, Foto: Stefan Wieland"
+            dc:format="image/jpeg"
+            dc:rights="STEFAN WIELAND"
+            dc:subject="[230925,AEM,AdaptTo(),Adobe,Code,Conference,Event,Kesselhaus,Konferenz,Kulturbrauerei,Palais,Programmierer,Sling,Tech,Veranstaltung,coding,programmers]"
+            dc:subject_xmpArrayType="rdf:Bag"
+            dc:title="adaptTo() 2023 - Europe's leading AEM Developer Conference"
+            exif:ApertureValue="2970854/1000000"
+            exif:ColorSpace="{Long}1"
+            exif:CustomRendered="{Long}0"
+            exif:DateTimeOriginal="{Date}2023-09-25T09:29:22.560+01:00"
+            exif:ExifVersion="0231"
+            exif:ExposureBiasValue="0/1"
+            exif:ExposureMode="{Long}1"
+            exif:ExposureProgram="{Long}1"
+            exif:ExposureTime="1/1000"
+            exif:FNumber="28/10"
+            exif:FocalLength="70/1"
+            exif:FocalPlaneResolutionUnit="{Long}3"
+            exif:FocalPlaneXResolution="61166933/32768"
+            exif:FocalPlaneYResolution="61166933/32768"
+            exif:ISOSpeedRatings="{Long}[1600]"
+            exif:ISOSpeedRatings_xmpArrayType="rdf:Seq"
+            exif:MaxApertureValue="3/1"
+            exif:MeteringMode="{Long}5"
+            exif:SceneCaptureType="{Long}0"
+            exif:ShutterSpeedValue="9965784/1000000"
+            exif:WhiteBalance="{Long}1"
+            Iptc4xmpCore:IntellectualGenre="Event"
+            jcr:primaryType="nt:unstructured"
+            lr:weightedFlatSubject="[AdaptTo(),Konferenz,Event,Veranstaltung,Kesselhaus,Kulturbrauerei,Palais,Conference,Tech,Code,programmers,230925,coding,Sling,Adobe,AEM,Programmierer]"
+            lr:weightedFlatSubject_xmpArrayType="rdf:Bag"
+            ns1_1_:BodySerialNumber="{Long}523024002846"
+            ns1_1_:LensModel="EF24-70mm f/2.8L II USM"
+            ns1_1_:LensSerialNumber="{Long}3345006596"
+            ns1_1_:LensSpecification="[24/1,70/1,0/0,0/0]"
+            ns1_1_:LensSpecification_xmpArrayType="rdf:Seq"
+            ns1_1_:PhotographicSensitivity="{Long}1600"
+            ns1_1_:RecommendedExposureIndex="{Long}1600"
+            ns1_1_:SensitivityType="{Long}2"
+            photoshop:AuthorsPosition="Fotograf"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DateCreated="{Date}2023-09-25T09:29:22.560+01:00"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            psAux:ApproximateFocusDistance="61/100"
+            psAux:Firmware="1.8.0"
+            psAux:FlashCompensation="0/1"
+            psAux:ImageNumber="{Long}0"
+            psAux:LateralChromaticAberrationCorrectionAlreadyApplied="True"
+            psAux:Lens="EF24-70mm f/2.8L II USM"
+            psAux:LensID="{Long}495"
+            psAux:LensInfo="24/1 70/1 0/0 0/0"
+            psAux:LensSerialNumber="{Long}3345006596"
+            psAux:SerialNumber="523024002846"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}1000"
+            tiff:ImageWidth="{Long}2000"
+            tiff:Make="Canon"
+            tiff:Model="Canon EOS R"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="72/1"
+            tiff:YResolution="72/1"
+            xmp:CreateDate="{Date}2023-09-25T09:29:22.560+01:00"
+            xmp:CreatorTool="Adobe Photoshop Lightroom Classic 12.5 (Macintosh)"
+            xmp:Label="Grün"
+            xmp:MetadataDate="{Date}2023-10-04T14:49:19.000+02:00"
+            xmpMM:DocumentID="xmp.did:2433fcd2-2ee3-4cfa-bbdf-f8f103631acc"
+            xmpMM:InstanceID="xmp.iid:2433fcd2-2ee3-4cfa-bbdf-f8f103631acc"
+            xmpMM:OriginalDocumentID="253C96654DFCA8333C2D6C5B2EC6873D"
+            xmpMM:PreservedFileName="_W6A9464.CR3"
+            xmp:ModifyDate="{Date}2023-10-04T14:49:19.000+02:00"
+            xmp:Rating="{Decimal}3"
+            xmpRights:Marked="{Boolean}true">
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}1.0"
+                    name="LIGHT_BLUE"
+                    rank="{Long}1"
+                    rgb="{Long}[149,182,206]"/>
+            </dam:colorDistribution>
+            <Iptc4xmpCore:CreatorContactInfo
+                Iptc4xmpCore:CiAdrCity="Berlin"
+                Iptc4xmpCore:CiAdrCtry="Germany"
+                Iptc4xmpCore:CiAdrRegion="Berlin"
+                Iptc4xmpCore:CiUrlWork="www.stefanwieland.com"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <exif:Flash
+                exif:Fired="{Boolean}false"
+                exif:Function="{Boolean}false"
+                exif:Mode="{Long}0"
+                exif:RedEyeMode="{Boolean}false"
+                exif:Return="{Long}0"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:52969218-f882-4d65-b90d-9f65197e8e38"
+                stRef:instanceID="xmp.iid:52969218-f882-4d65-b90d-9f65197e8e38"
+                stRef:originalDocumentID="253C96654DFCA8333C2D6C5B2EC6873D"
+                xmpNodeType="xmpStruct"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <sports_jersey
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.936"
+                    isCustom="{Boolean}false"
+                    name="sports jersey"/>
+                <t-shirt
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.919"
+                    isCustom="{Boolean}false"
+                    name="t-shirt"/>
+                <product_photography
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.912"
+                    isCustom="{Boolean}false"
+                    name="product photography"/>
+                <shirt
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.905"
+                    isCustom="{Boolean}false"
+                    name="shirt"/>
+                <active_shirt
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.884"
+                    isCustom="{Boolean}false"
+                    name="active shirt"/>
+                <blanket
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.851"
+                    isCustom="{Boolean}false"
+                    name="blanket"/>
+                <sweatshirt
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.839"
+                    isCustom="{Boolean}false"
+                    name="sweatshirt"/>
+                <checkered
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.822"
+                    isCustom="{Boolean}false"
+                    name="checkered"/>
+                <protective_garment
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.815"
+                    isCustom="{Boolean}false"
+                    name="protective garment"/>
+                <undergarment
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.813"
+                    isCustom="{Boolean}false"
+                    name="undergarment"/>
+                <windbreaker
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.807"
+                    isCustom="{Boolean}false"
+                    name="windbreaker"/>
+                <cloth
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.803"
+                    isCustom="{Boolean}false"
+                    name="cloth"/>
+                <long_sleeve
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8"
+                    isCustom="{Boolean}false"
+                    name="long sleeve"/>
+                <garment
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.797"
+                    isCustom="{Boolean}false"
+                    name="garment"/>
+                <checked_pattern
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.794"
+                    isCustom="{Boolean}false"
+                    name="checked pattern"/>
+                <hoodie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.772"
+                    isCustom="{Boolean}false"
+                    name="hoodie"/>
+                <striped
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.77"
+                    isCustom="{Boolean}false"
+                    name="striped"/>
+                <shorts
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.77"
+                    isCustom="{Boolean}false"
+                    name="shorts"/>
+                <sports_bra
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.755"
+                    isCustom="{Boolean}false"
+                    name="sports bra"/>
+                <polo_shirt
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.755"
+                    isCustom="{Boolean}false"
+                    name="polo shirt"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditionsMetadata jcr:primaryType="nt:unstructured">
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}24"
+                imageWidth="{Long}48"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}160"
+                imageWidth="{Long}319"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}70"
+                imageWidth="{Long}140"/>
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}1000"
+                imageWidth="{Long}2000"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}640"
+                imageWidth="{Long}1280"/>
+        </renditionsMetadata>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        dam:jobId="2596403d-7eff-460d-9cb7-126ad0191cb5"
+        dam:processingId="739f8211-ba50-4538-a88e-66d3d6a7c70b"
+        dam:processingRenditions="[cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.features.json,cq5dam.preview.pdf,cq5dam.preview.mp4,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2024-05-08T12:57:40.077Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:primaryType="dam:AssetContent"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for pdf files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for pdf files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:Author="adaptTo()"
+            dam:numPages="{Long}23"
+            dam:Physicalheightininches="{Decimal}5.625"
+            dam:Physicalwidthininches="{Decimal}10.0"
+            dam:Producer="Microsoft® PowerPoint® für Microsoft 365"
+            dam:size="{Long}814574"
+            dc:creator="[adaptTo()]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="application/pdf"
+            dc:title="Edit anything with the Universal Editor - adaptTo() 2023"
+            jcr:primaryType="nt:unstructured"
+            pdf:Producer="Microsoft® PowerPoint® für Microsoft 365"
+            xmp:CreateDate="{Date}2023-09-25T12:13:44.000Z"
+            xmp:CreatorTool="Microsoft® PowerPoint® für Microsoft 365"
+            xmpMM:DocumentID="uuid:C9B44AFF-9179-4373-A608-8F87229EB353"
+            xmpMM:InstanceID="uuid:C9B44AFF-9179-4373-A608-8F87229EB353"
+            xmp:ModifyDate="{Date}2023-09-25T12:13:44.000Z">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <us
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Us"/>
+                <folie_23
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Folie 23"/>
+                <folie_20
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Folie 20"/>
+                <folie_9
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Folie 9"/>
+                <folie_8
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Folie 8"/>
+                <folie_6
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Folie 6"/>
+                <gabriel_walt
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Gabriel Walt"/>
+                <sharanya_vinod
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Sharanya Vinod"/>
+                <artur_kudlacz
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Artur Kudlacz"/>
+                <vip
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="VIP"/>
+                <faq
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="FAQ"/>
+                <content
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Content"/>
+                <headless
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Headless"/>
+                <ue
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="UE"/>
+                <h6
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="h6"/>
+                <h3
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="h3"/>
+                <h2
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="h2"/>
+                <h1
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="h1"/>
+                <titletag
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="TitleTag"/>
+                <typeapplication_vndadobeaemeditormodeljson
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="typeapplication/vnd.adobe.aem.editor.model+json"/>
+                <map
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Map"/>
+                <define
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Define"/>
+                <default_text
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Default Text"/>
+                <typeapplication_vndadobeaemeditorcomponentsjson
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="typeapplication/vnd.adobe.aem.editor.components+json"/>
+                <itemtypetextjanesmithp
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="itemtypetextJane Smithp"/>
+                <aemconn
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="aemconn"/>
+                <import_adobe
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Import @adobe"/>
+                <demo
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Demo"/>
+                <adobe_agenda
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Adobe Agenda"/>
+                <europe
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="EUROPE"/>
+                <custom_propertiesfolie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9983378271589689"
+                    isCustom="{Boolean}false"
+                    name="custom properties Folie"/>
+                <aem_developer_conference
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9960218740639364"
+                    isCustom="{Boolean}false"
+                    name="AEM DEVELOPER CONFERENCE"/>
+                <custom_properties
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9951405278758054"
+                    isCustom="{Boolean}false"
+                    name="custom properties"/>
+                <advanced_instrumentationfolie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9949040891972514"
+                    isCustom="{Boolean}false"
+                    name="Advanced instrumentation Folie"/>
+                <properties_folie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9946071889155177"
+                    isCustom="{Boolean}false"
+                    name="properties Folie"/>
+                <universal_editor
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9925860938939075"
+                    isCustom="{Boolean}false"
+                    name="Universal Editor"/>
+                <custom
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9884105731433401"
+                    isCustom="{Boolean}false"
+                    name="custom"/>
+                <components_folie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9880627440497864"
+                    isCustom="{Boolean}false"
+                    name="Components Folie"/>
+                <instrumentation_folie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9879754857830205"
+                    isCustom="{Boolean}false"
+                    name="instrumentation Folie"/>
+                <editor
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9875144258193329"
+                    isCustom="{Boolean}false"
+                    name="editor"/>
+                <properties
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9870327881291312"
+                    isCustom="{Boolean}false"
+                    name="properties"/>
+                <universal_editorvip
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9856600702139995"
+                    isCustom="{Boolean}false"
+                    name="Universal Editor VIP"/>
+                <advanced_instrumentation
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.98533466715511"
+                    isCustom="{Boolean}false"
+                    name="Advanced instrumentation"/>
+                <default_text_properties
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9844879702205589"
+                    isCustom="{Boolean}false"
+                    name="Default text properties"/>
+                <components
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9841235545707623"
+                    isCustom="{Boolean}false"
+                    name="components"/>
+                <element_instrumentationfolie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9830111345033197"
+                    isCustom="{Boolean}false"
+                    name="Element instrumentation Folie"/>
+                <universal
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9813177950432348"
+                    isCustom="{Boolean}false"
+                    name="Universal"/>
+                <types_custom_properties
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9810236770680059"
+                    isCustom="{Boolean}false"
+                    name="types Custom Properties"/>
+                <editing_folie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9806842392747248"
+                    isCustom="{Boolean}false"
+                    name="editing Folie"/>
+                <architecture_folie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9802481565615002"
+                    isCustom="{Boolean}false"
+                    name="Architecture Folie"/>
+                <app
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9785436477226837"
+                    isCustom="{Boolean}false"
+                    name="app"/>
+                <text_properties
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9780726545516021"
+                    isCustom="{Boolean}false"
+                    name="text properties"/>
+                <deep_dive
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.975940718528673"
+                    isCustom="{Boolean}false"
+                    name="Deep Dive"/>
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9758488976609041"
+                    isCustom="{Boolean}false"
+                    name="title"/>
+                <aem
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9712462403002271"
+                    isCustom="{Boolean}false"
+                    name="aem"/>
+                <instrumentation
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9698657939938602"
+                    isCustom="{Boolean}false"
+                    name="instrumentation"/>
+                <field_custom_properties
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9688967328081277"
+                    isCustom="{Boolean}false"
+                    name="field Custom Properties"/>
+                <developer_kit_resources
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9685965058766277"
+                    isCustom="{Boolean}false"
+                    name="Developer kit resources"/>
+                <agenda_folie
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9675712691456799"
+                    isCustom="{Boolean}false"
+                    name="Agenda Folie"/>
+                <developer_kit
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9671368407512104"
+                    isCustom="{Boolean}false"
+                    name="Developer kit"/>
+                <custom_field_custom
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9661450680399943"
+                    isCustom="{Boolean}false"
+                    name="custom field Custom"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditionsMetadata jcr:primaryType="nt:unstructured">
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}27"
+                imageWidth="{Long}48"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}79"
+                imageWidth="{Long}140"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}179"
+                imageWidth="{Long}319"/>
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}1152"
+                imageWidth="{Long}2048"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}720"
+                imageWidth="{Long}1280"/>
+        </renditionsMetadata>
+    </jcr:content>
+</jcr:root>

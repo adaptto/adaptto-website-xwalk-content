@@ -1,0 +1,173 @@
+EUROPE'S LEADING AEM DEVELOPER CONFERENCE
+25th – 27th SEPTEMBER 2023
+What’s up with Core Components?
+Vlad Băilescu, Adobe
+What are Core Components?
+2
+§ Standardized open-source Web Content 
+Management (WCM) blocks
+§ Showcase AEM development best practices
+§ Sling Models
+§ HTL
+§ Versions
+§ JSON model support for SPAs
+Who uses them?
+3
+§ AEM developers, to bootstrap projects
+§ AEM project archetype
+§ Customizations through sling:resourceSuperType 
+inheritance
+§ AEM authors
+§ Sample content
+§ Github: https://github.com/adobe/aem-core-
+wcm-components
+§ Available OOTB on AEMaaCS
+§ Examples:
+§ https://www.aemcomponents.dev/
+§ https://wknd.site/
+How to use them?
+4
+Documentation
+5
+§ AEM Documentation
+https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html
+§ Guide – Paths to success
+https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html
+§ WKND Tutorial
+https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-
+develop/overview.html
+What’s new?
+6
+§ Large adoption rate, especially on AEMaaCS
+§ Focus on stability
+§ 24 releases
+§ Maintenance moved to new team
+in Bucharest
+Release(s) 2.18.x
+7
+§ Link handler
+§ Featured Image
+§ New versions for many components
+§ Component style in edit dialog
+Release(s) 2.19.x
+8
+§ Async loading of clientlibs
+§ Search v2
+Release(s) 2.20.x
+9
+§ “Table of Contents” component
+§ Post-processing filter
+§ Web-optimized asset delivery support in 
+Image component for AEMaaCS
+§ Same stack as Dynamic Media
+§ No license required
+Release(s) 2.21.x
+10
+§ Link Handler – public API
+§ Datalayer – configurable include
+§ Image
+§ Dynamic Media handling
+§ Lazy loading
+§ Multi-panel components (tabs, carousel, 
+accordion)
+Release(s) 2.22.x
+11
+§ Expanding Dynamic Media support
+§ Teaser
+§ List
+§ Update legacy PDF viewer
+§ Validation for duplicate HTML ids
+Release(s) 2.23.x
+12
+§ Support for Assets as a Cloud Service micro-
+frontend
+§ Next Generation Dynamic Media (Polaris)
+https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/asset-selector.html
+§ Bugfixes
+Image delivery
+13
++++ !!!
+AIS
+(AdaptiveImageServlet) Works OOTB In-process image 
+manipulation
+Dynamic Media Feature-rich (renditions, 
+processing profiles) Needs subscription
+Web-optimized 
+delivery
+CDN delivery
+Optimized formats (prefer webp) AEMaaCS
+Assets as a Cloud 
+Service Cloud native image management Needs subscription
+Assets as a Cloud Service
+14
+§ 6.5 and AEMaaCS
+§ Requires Feature Toggle and custom OSGi 
+config
+§ /urn:aaid:<uuid>/name.ext
+15
+Quick Demo
+Assets as a Cloud Service micro-frontend
+Future releases
+16
+§ Stability – testing and release validation
+§ Standardized handling of asset delivery
+§ Expand support for Assets as a Cloud service 
+to other components
+§ More bugfixes and security updates
+17
+More Components?
+More Components?
+18
+§ Core WCM Components – common use cases
+§ Core CIF Components – Commerce 
+Integration Framework
+§ Core Forms Components – AEM Forms
+§ Core Email Components – Adobe Campaign
+Core CIF Components
+19
+§ Accelerator for AEM, CIF and Adobe 
+Commerce
+§ Product details / navigation
+§ Shopping cart and checkout
+§ AEM CIF Add-on
+§ GraphQL endpoint for commerce solution 
+integration
+Core CIF Components - Documentation
+20
+§ Documentation
+https://experienceleague.adobe.com/docs/experience-manager-cloud-
+service/content/content-and-commerce/storefront/developing/develop.html
+§ adaptTo() presentations
+§ https://adapt.to/2021/schedule/aem-commerce-extensibility-using-adobe-io
+§ https://adapt.to/2019/schedule/cif-the-modern-way-to-integrate-commerce-engines-
+with-adobe-experience-cloud
+§ Examples
+https://github.com/adobe/aem-cif-guides-venia
+Core Forms Components
+21
+§ AEM Forms
+§ Adaptive Form – embed
+§ Authorable form components/elements
+§ https://github.com/adobe/aem-core-forms-components
+§ https://experienceleague.adobe.com/docs/experience-
+manager-learn/forms/creating-your-first-adaptive-
+form/introduction-and-setup.html?lang=en
+Core Email Components
+22
+§ Integration with Adobe Campaign (Classic & 
+Standard)
+§ Email Templates & Components
+§ Support for variables, segmentation
+§ Inline styling
+§ https://github.com/adobe/aem-core-email-components
+Even more? Community Projects
+23
+§ Contrib WCM Components – Community 
+Contribution - https://github.com/adobe/aem-contrib-wcm-components
+§ WCM.io - https://wcm.io/wcm/core-components/ 
+§ React/Angular Core Components
+https://adapt.to/2021/schedule/react-angular-core-components-and-archetype-updates
+§ AEM Components Generator - Bounteous
+https://github.com/adobe/aem-component-generator
+24
+Thank you!

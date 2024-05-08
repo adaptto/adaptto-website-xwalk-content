@@ -1,0 +1,129 @@
+EUROPE'S LEADING AEM DEVELOPER CONFERENCE
+25th – 27th SEPTEMBER 2023
+AEM Headless with Hybrid Rendering Frontend Frameworks
+D. Nguyen & L. Ghita, Adobe
+About us
+2
+Duy Nguyen
+Sr. Software Engineer @ Adobe
+dunguyen@adobe.com
+Lucian Ghita
+Sr. Computer Scientist @ Adobe
+ghita@adobe.com
+Menu
+3
+§ Outlook on JS Frameworks
+§ Hybrid rendering for 
+Headless CMS
+§ Demo
+§ In React & SvelteKit
+§ WYSIWYG Editing
+4
+Modern Frontend Frameworks Outlook
+State of JS 2022 | Front-End Frameworks
+5* source: https://2022.stateofjs.com/en-US/libraries/front-end-frameworks
+State of JS 2022 | Rendering Frameworks
+6* source: https://2022.stateofjs.com/en-US/libraries/rendering-frameworks
+7
+Hybrid Rendering for Headless CMS
+What matters?
+8
+Developer Experience Web Performance
+Hybrid Rendering
+Where does the code run?
+9
+§ Rendering via Java or JS
+§ Flexible delivery / routing
+§ Same content source
+Where is the content authored?
+10
+Hybrid Rendering
+11
+§ Hybrid Rendering has become mainstream
+§ Frontend also requires a server, or serverless
+§ Extraordinary developer experience
+§ Same tech stack bridging traditional “backend | frontend” divide
+§ Writing backend business logics directly with “frontend” JS
+React Server Components (RSC)
+12
+§ Seamless integration with client components
+§ Progressive hydration and streaming rendering
+§ Partial updates while keeping the page state
+§ Re-fetch islands in place
+§ Enable new programming paradigms (e.g. DB access from JS 
+frontend code 🚀)
+RSC (code)
+13
+§ Zero-Bundle-Size 
+components
+§ Code not delivered to 
+client
+§ You can do long IO in 
+render() functions.
+§ Typically rendered 
+ahead of time, or SWR
+Web Performance
+14
+ü User Experience
+ü Search Engine Ranks
+ü Conversion Rates
+ü Mobile users
+ü Competitiveness
+ü Sustainability
+16
+Demo
+React WKND
+17
+§ React (Next.js)
+§ Headless content delivery
+§ Hybrid rendering
+§ WYSIWYG editing
+SvelteKit WKND
+18
+§ Svelte (SvelteKit)
+§ Headless content delivery
+§ Hybrid rendering
+§ WYSIWYG editing
+Other Frameworks
+19
+§ Astro
+§ Remix
+§ Nuxt
+§ QWIK
+§ Etc.
+Interested in more?
+We have some ideas
+(not an inclusive list)
+20
+Summary
+Takeaways
+21
+Frontend dev Key factors AEM Headless
+• Developer experience
+• Web performance
+• Hybrid rendering
+• Front & backend bridge
+• Shared codebase
+• Low learning curve
+• HTTP API
+• JS custom code
+• WYSIWYG editing
+When you should use this blueprint
+22
+ü Existing investment in JS rendering components (like React) 
+ü More for Web Applications than CMS powered Websites
+ü Highly Interactive
+ü AEM Headless
+See the upcoming presentations on AEM Edge Delivery Services 
+for a simpler and faster way
+References
+23
+§ Examples: https://github.com/adobe/aem-headless-app-templates
+§ Next.js: https://rsc.thedailywknd.com/
+§ SvelteKit: https://svelte.thedailywknd.com/
+§ and more to come …
+§ Headless GraphQL Client: https://github.com/adobe/aem-headless-
+client-js
+Images licensed from https://stock.adobe.com
+24
+GET IN TOUCH!

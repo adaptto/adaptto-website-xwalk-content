@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        dam:jobId="2596403d-7eff-460d-9cb7-126ad0191cb5"
+        dam:processingId="0380ac86-5ed7-4086-8076-48d8a06e11a3"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cqdam.text.txt,cq5dam.preview.pdf,cqdam.machine.metadata.features.json,cqdam.machine.metadata.colors.json,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cq5dam.preview.mp4,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json]"
+        dam:processingRequestedDate="{Date}2024-05-08T12:57:40.407Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:primaryType="dam:AssetContent"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for pdf files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for pdf files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:numPages="{Long}23"
+            dam:Physicalheightininches="{Decimal}5.625"
+            dam:Physicalwidthininches="{Decimal}10.0"
+            dam:Producer="macOS Version 13.5.1 (Build 22G90) Quartz PDFContext"
+            dam:size="{Long}2951607"
+            dc:format="application/pdf"
+            jcr:primaryType="nt:unstructured"
+            pdf:Producer="macOS Version 13.5.1 (Build 22G90) Quartz PDFContext"
+            xmp:CreateDate="{Date}2023-09-25T11:45:22.000Z"
+            xmp:ModifyDate="{Date}2023-09-25T11:45:22.000Z">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <https_github_comadobeaem-headless-client-js
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="https/github.com/adobe/aem-headless-client-js"/>
+                <sveltekit
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="SvelteKit"/>
+                <aem_headless
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="AEM Headless"/>
+                <cms
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="CMS"/>
+                <react
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="React"/>
+                <js
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="JS"/>
+                <wysiwyg
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="WYSIWYG"/>
+                <astro
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Astro"/>
+                <mobile
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Mobile"/>
+                <swr
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="SWR"/>
+                <e_g_db
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="e.g. DB"/>
+                <s_partial
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="§ Partial"/>
+                <rsc
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="RSC"/>
+                <java
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Java"/>
+                <demo
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Demo"/>
+                <menu
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Menu"/>
+                <mailto_ghita_adobecom
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="mailto:ghita@adobe.com"/>
+                <adobe
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Adobe"/>
+                <scientist
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Scientist"/>
+                <duy_nguyen
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Duy Nguyen"/>
+                <europe
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="EUROPE"/>
+                <hybrid_rendering
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9986710140029225"
+                    isCustom="{Boolean}false"
+                    name="Hybrid rendering"/>
+                <aem_developer_conference
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9980087208094699"
+                    isCustom="{Boolean}false"
+                    name="AEM DEVELOPER CONFERENCE"/>
+                <hybrid_renderingfrontend
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9971626661180102"
+                    isCustom="{Boolean}false"
+                    name="Hybrid Rendering Frontend"/>
+                <performance_hybridrendering
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9959688750221476"
+                    isCustom="{Boolean}false"
+                    name="Performance Hybrid Rendering"/>
+                <frontend_frameworksoutlook
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9946506309335779"
+                    isCustom="{Boolean}false"
+                    name="Frontend Frameworks Outlook"/>
+                <web_performance_hybrid
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9937923448172206"
+                    isCustom="{Boolean}false"
+                    name="Web Performance Hybrid"/>
+                <frameworks_outlookstate
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9929299466622064"
+                    isCustom="{Boolean}false"
+                    name="Frameworks Outlook State"/>
+                <hybrid
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9920535290503492"
+                    isCustom="{Boolean}false"
+                    name="Hybrid"/>
+                <headless_contentdelivery
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9920354825446871"
+                    isCustom="{Boolean}false"
+                    name="Headless content delivery"/>
+                <frontend_frameworks
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9905934479736802"
+                    isCustom="{Boolean}false"
+                    name="Frontend Frameworks"/>
+                <wysiwyg_editing
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9887013047493496"
+                    isCustom="{Boolean}false"
+                    name="WYSIWYG editing"/>
+                <headless_cms
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9886863767761005"
+                    isCustom="{Boolean}false"
+                    name="Headless CMS"/>
+                <developer_experienceweb
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9879509567799829"
+                    isCustom="{Boolean}false"
+                    name="Developer Experience Web"/>
+                <frameworks
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9864585274011368"
+                    isCustom="{Boolean}false"
+                    name="Frameworks"/>
+                <web_performance
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9864343991871245"
+                    isCustom="{Boolean}false"
+                    name="Web performance"/>
+                <experience_web_performance
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9862760229838314"
+                    isCustom="{Boolean}false"
+                    name="Experience Web Performance"/>
+                <factors_aem_headless
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9843168649884801"
+                    isCustom="{Boolean}false"
+                    name="factors AEM Headless"/>
+                <frontend
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9840623837471962"
+                    isCustom="{Boolean}false"
+                    name="frontend"/>
+                <headless_content
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9814243288911688"
+                    isCustom="{Boolean}false"
+                    name="Headless content"/>
+                <swr_web_performance
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9810313500316035"
+                    isCustom="{Boolean}false"
+                    name="SWR Web Performance"/>
+                <aem_edge_delivery
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9803908091968527"
+                    isCustom="{Boolean}false"
+                    name="AEM Edge Delivery"/>
+                <extraordinary_developerexperience
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9802002863936319"
+                    isCustom="{Boolean}false"
+                    name="Extraordinary developer experience"/>
+                <frameworks_outlook
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.977919880835793"
+                    isCustom="{Boolean}false"
+                    name="Frameworks Outlook"/>
+                <lucian_ghita
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9723505554959995"
+                    isCustom="{Boolean}false"
+                    name="Lucian Ghita"/>
+                <aem_developer
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9700152896144381"
+                    isCustom="{Boolean}false"
+                    name="AEM DEVELOPER"/>
+                <web
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9695905011559267"
+                    isCustom="{Boolean}false"
+                    name="Web"/>
+                <conference
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9676539232016077"
+                    isCustom="{Boolean}false"
+                    name="CONFERENCE"/>
+                <september
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9676539232016077"
+                    isCustom="{Boolean}false"
+                    name="SEPTEMBER"/>
+                <ghita
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9670833178547218"
+                    isCustom="{Boolean}false"
+                    name="Ghita"/>
+                <code
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9656955538326402"
+                    isCustom="{Boolean}false"
+                    name="code"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditionsMetadata jcr:primaryType="nt:unstructured">
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}179"
+                imageWidth="{Long}319"/>
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}1152"
+                imageWidth="{Long}2048"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}27"
+                imageWidth="{Long}48"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}79"
+                imageWidth="{Long}140"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}720"
+                imageWidth="{Long}1280"/>
+        </renditionsMetadata>
+    </jcr:content>
+</jcr:root>

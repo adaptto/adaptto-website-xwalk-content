@@ -10,7 +10,7 @@
         sling:resourceType="core/franklin/components/page/v1/page"
         image="https://i.ytimg.com/vi/46d9od04BJQ/maxresdefault.jpg"
         pageTitle="What’s up with Core Components? - adaptTo() 2023"
-        presentation="https://adapt.to/2023/presentations/adaptto-2023-whats-up-with-core-components-vlad-bailescu.pdf"
+        presentation="/content/dam/adaptto/xwalk/presentations/2023/adaptto-2023-whats-up-with-core-components-vlad-bailescu.pdf"
         source-code="https://github.com/adobe/aem-core-wcm-components/"
         speakers="Vlad Băilescu"
         video="https://youtu.be/46d9od04BJQ"

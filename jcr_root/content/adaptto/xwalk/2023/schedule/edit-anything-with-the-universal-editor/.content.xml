@@ -10,7 +10,7 @@
         sling:resourceType="core/franklin/components/page/v1/page"
         image="https://i.ytimg.com/vi/COfvk_4ULi8/maxresdefault.jpg"
         pageTitle="Edit anything with the Universal Editor - adaptTo() 2023"
-        presentation="https://adapt.to/2023/presentations/adaptto-2023-edit-anything-with-the-universal-editor-sharanya-vinod-artur-kudlacz.pdf"
+        presentation="/content/dam/adaptto/xwalk/presentations/2023/adaptto-2023-edit-anything-with-the-universal-editor-sharanya-vinod-artur-kudlacz.pdf"
         speakers="Sharanya Vinod, Artur Kudlacz"
         video="https://youtu.be/COfvk_4ULi8"
         jcr:mixinTypes="[cq:ReplicationStatus]"

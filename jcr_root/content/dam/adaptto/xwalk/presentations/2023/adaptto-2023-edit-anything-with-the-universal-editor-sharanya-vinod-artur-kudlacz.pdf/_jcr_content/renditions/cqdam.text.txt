@@ -1,0 +1,211 @@
+Edit anything with the Universal Editor - adaptTo() 2023
+EUROPE'S LEADING AEM DEVELOPER CONFERENCE
+25th – 27th SEPTEMBER 2023
+Edit anything with the Universal Editor
+S. Vinod & A. Kudlacz, Adobe
+Agenda
+2
+▪ Introduction
+▪ Architecture
+▪ Deep Dive
+▪ Demo
+▪ Developer kit resources
+▪ Q & A
+Context matters!
+3
+Why "Universal" Editor?
+4
+Architecture
+5
+Enable app for editing
+6
+Import @adobe/universal-editor-cors package
+Declare connections in meta tags
+Instrument elements to make them editable
+Element instrumentation
+7
+<html>
+<head>
+<meta name="urn:adobe:aem:editor:aemconn"
+content="aem:https://author-p1234-e5678.adobeaemcloud.com" />
+</head>
+<body>
+<ul>
+<li itemscope itemtype="reference" itemid="urn:aemconn:/content/example/listitem">
+<p itemprop="name" itemtype="text">Jane Smith</p>
+<p itemprop="title" itemtype="text">Author</p>
+<img itemprop="avatar" itemtype="media" alt="avatar" ... />
+</li>
+</ul>
+</body>
+</html>
+In-context editing
+8
+Open the Universal Editor
+Enter URL of instrumented app
+Double click text to be edited
+Update content in-context
+Save
+Saving changes
+9
+<meta name="urn:adobe:aem:editor:aemconn"
+content="aem:https://author-p1234-e5678.adobeaemcloud.com" />
+...
+<h1 itemid="urn:aemconn:/content/app/text"
+itemtype="text" itemprop="text">Title</h1>
+Advanced instrumentation
+10
+▪ data-editor-itemlabel
+Customize label displayed on 
+overlay and in the content tree
+Advanced instrumentation
+11
+▪ data-editor-behavior
+Defines behavior of an editable
+- "component" provides 
+component like capabilities such 
+as move, delete etc.
+Inserting Components
+12
+▪ Define insertable components in the app
+▪ Can be inline or sourced from standalone file
+▪ Insertable in containers
+<script
+type="application/vnd.adobe.aem.editor.components+json"
+src="/static/component-definition.json">
+</script>
+Inserting Components
+13
+{
+"groups": [{
+"title": "General Components",
+"id": "general",
+"components": [{
+"title": "Text",
+"id": "text",
+"plugins": {
+"aem": {
+"page": {
+"resourceType": "wknd/components/text",
+"template": { "text": "Default Text" }
+}
+},
+"<other-plugin>": "<plugin-text-identifier>"
+}}
+...
+▪ Groupable
+▪ System information via plugins
+▪ Default values via template
+14
+Advanced Features
+Creating custom properties
+15
+Generic dialog provides out of the box
+▪ Support for several primitive types like text 
+field, dropdown etc.
+▪ Input validation
+▪ Ability to add/overlay custom renderers and 
+validation methods
+▪ Plug and play mechanism
+▪ Built-in debugging
+Creating custom properties
+16
+▪ text-input
+▪ text-area (RTE)
+▪ number
+▪ boolean (switch)
+▪ json (text area, tree view)
+▪ tabs
+▪ date-time (date, time, date-time)
+▪ select
+▪ checkbox-group
+▪ radio-group
+▪ fallback (for any unsupported type)
+List of natively supported types
+Custom Properties
+17
+Default text properties
+Text properties with custom field
+Custom Properties
+18
+▪ Define custom models via the app
+▪ Map model id to element
+<script
+type="application/vnd.adobe.aem.editor.model+json"
+src="/static/model-definition.json">
+</script>
+...
+<TitleTag {...editorProps}
+data-editor-itemmodel="title">
+Adventures
+</TitleTag>
+[{
+"id": "title",
+"fields": [{
+"component": "select",
+"name": "type",
+"value": "h1",
+"label": "Type",
+"valueType": "string",
+"options": [
+{ "name": "h1", "value": "h1" },
+{ "name": "h2", "value": "h2" },
+{ "name": "h3", "value": "h3" },
+{ "name": "h4", "value": "h4" },
+{ "name": "h5", "value": "h5" },
+{ "name": "h6", "value": "h6" }
+]
+}]
+}, ...]
+19
+Demo
+Developer kit resources
+20
+Universal Editor overview 
+Sources of sample app with UE instrumentation
+Deployed sample app
+Headless content using Content Fragments
+FAQ
+21
+▪ Is 6.5 supported?
+▪ Not yet, but it is on the roadmap.
+▪ Is the editor already available to try out?
+▪ Currently it is only available as part of the VIP program. Please reach out to us if you're 
+interested.
+▪ Can custom components be used?
+▪ Yes, the editor is completely independent of how rendering itself is done within the 
+app. 
+22
+Q & A
+About Us
+23
+If you would like to reach out to us with further questions, feel free to contact us at -
+▪ Artur Kudlacz (akudlacz@adobe.com)
+▪ Sharanya Vinod (svinod@adobe.com)
+For discussing your use case, and being a part of the Universal Editor VIP program, please 
+reach out to -
+▪ Maximillian Voss (voss@adobe.com)
+▪ Gabriel Walt (gwalt@adobe.com)
+	Folie 1
+	Folie 2: Agenda
+	Folie 3: Context matters!
+	Folie 4: Why "Universal" Editor?​
+	Folie 5: Architecture
+	Folie 6: Enable app for editing
+	Folie 7: Element instrumentation
+	Folie 8: In-context editing
+	Folie 9: Saving changes
+	Folie 10: Advanced instrumentation
+	Folie 11: Advanced instrumentation
+	Folie 12: Inserting Components
+	Folie 13: Inserting Components
+	Folie 14
+	Folie 15: Creating custom properties
+	Folie 16: Creating custom properties
+	Folie 17: Custom Properties
+	Folie 18: Custom Properties
+	Folie 19
+	Folie 20: Developer kit resources
+	Folie 21: FAQ
+	Folie 22
+	Folie 23: About Us

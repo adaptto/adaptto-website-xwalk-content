@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        dam:jobId="2596403d-7eff-460d-9cb7-126ad0191cb5"
+        dam:processingId="0a94de7d-5ecd-4965-a16f-20d3a739cc32"
+        dam:processingRenditions="[cqdam.metadata.xml,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.preview.pdf,cqdam.machine.metadata.colors.json,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.preview.mp4,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json]"
+        dam:processingRequestedDate="{Date}2024-05-08T12:57:39.958Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:primaryType="dam:AssetContent"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for pdf files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for pdf files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:numPages="{Long}24"
+            dam:Physicalheightininches="{Decimal}5.625"
+            dam:Physicalwidthininches="{Decimal}10.0"
+            dam:Producer="macOS Version 13.5.1 (Build 22G90) Quartz PDFContext"
+            dam:size="{Long}599794"
+            dc:format="application/pdf"
+            jcr:primaryType="nt:unstructured"
+            pdf:Producer="macOS Version 13.5.1 (Build 22G90) Quartz PDFContext"
+            xmp:CreateDate="{Date}2023-09-25T09:10:29.000Z"
+            xmp:ModifyDate="{Date}2023-09-25T09:10:29.000Z">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <react_angular_corecomponents
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="React/Angular Core Components"/>
+                <contrib_wcm_components
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Contrib WCM Components"/>
+                <classic_standard
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Classic &amp; Standard"/>
+                <https_adapt_to_2019schedulecif-the-modern-way-to-integrate-comme
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="https/adapt.to/2019/schedule/cif-the-modern-way-to-integrate-commerce-engines-with-adobe-experience-cloud https/adapt.to/2019/schedule/cif-the-modern-way-to-integrate-commerce-engines-with-adobe-experience-cloud"/>
+                <https_experienceleagueadobecomdocsexperience-manager-cloud-servi
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="https/experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/developing/develop.html"/>
+                <https_github_comadobeaem-cif-guides-venia
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="https/github.com/adobe/aem-cif-guides-venia"/>
+                <aem
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="AEM"/>
+                <cloud_service
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Cloud Service"/>
+                <requires_featuretoggle
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Requires Feature Toggle"/>
+                <cdn
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="CDN"/>
+                <table_of_contents
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Table of Contents"/>
+                <github
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Github"/>
+                <web_content_management
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Web Content Management"/>
+                <vlad_b_ilescu
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="Vlad Băilescu"/>
+                <europe
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="EUROPE"/>
+                <core_cif_components
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9993050080787573"
+                    isCustom="{Boolean}false"
+                    name="Core CIF Components"/>
+                <aem_developer_conference
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9989792270624624"
+                    isCustom="{Boolean}false"
+                    name="AEM DEVELOPER CONFERENCE"/>
+                <aem_components_generator
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.996578040050931"
+                    isCustom="{Boolean}false"
+                    name="AEM Components Generator"/>
+                <dynamic_media
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9957615777789619"
+                    isCustom="{Boolean}false"
+                    name="Dynamic Media"/>
+                <cloud_service_cloud
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.995531106853033"
+                    isCustom="{Boolean}false"
+                    name="Cloud Service Cloud"/>
+                <cif_components
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.99482762064188"
+                    isCustom="{Boolean}false"
+                    name="CIF Components"/>
+                <core_cif
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9946642816315787"
+                    isCustom="{Boolean}false"
+                    name="Core CIF"/>
+                <adobe_campaign_core
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9939218742891609"
+                    isCustom="{Boolean}false"
+                    name="Adobe Campaign Core"/>
+                <dynamic_media_support
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9936509259423403"
+                    isCustom="{Boolean}false"
+                    name="Dynamic Media support"/>
+                <campaign_core_cif
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9935620999553216"
+                    isCustom="{Boolean}false"
+                    name="Campaign Core CIF"/>
+                <integration_corecif
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9934958889918175"
+                    isCustom="{Boolean}false"
+                    name="integration Core CIF"/>
+                <aem_forms
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9931522938059241"
+                    isCustom="{Boolean}false"
+                    name="AEM Forms"/>
+                <authorable_form_components
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9928899699311557"
+                    isCustom="{Boolean}false"
+                    name="authorable form components"/>
+                <aem_components
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9926375328161945"
+                    isCustom="{Boolean}false"
+                    name="AEM Components"/>
+                <core_forms
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9923681762741223"
+                    isCustom="{Boolean}false"
+                    name="Core Forms"/>
+                <generation_dynamicmedia
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9913481382699469"
+                    isCustom="{Boolean}false"
+                    name="Generation Dynamic Media"/>
+                <email_components
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9901796649169319"
+                    isCustom="{Boolean}false"
+                    name="Email Components"/>
+                <core_email
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9898670030837753"
+                    isCustom="{Boolean}false"
+                    name="Core Email"/>
+                <showcase_aem_development
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9882750219425389"
+                    isCustom="{Boolean}false"
+                    name="Showcase AEM development"/>
+                <json_model_support
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9866056928756441"
+                    isCustom="{Boolean}false"
+                    name="JSON model support"/>
+                <asset_delivery_support
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9858386290973638"
+                    isCustom="{Boolean}false"
+                    name="asset delivery support"/>
+                <release
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9857429040493197"
+                    isCustom="{Boolean}false"
+                    name="release"/>
+                <aem_cif
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9856405040664209"
+                    isCustom="{Boolean}false"
+                    name="AEM CIF"/>
+                <image_component
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9853706892872744"
+                    isCustom="{Boolean}false"
+                    name="Image component"/>
+                <dynamic_media_handling
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9852994829047717"
+                    isCustom="{Boolean}false"
+                    name="Dynamic Media handling"/>
+                <aem_documentation
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9852522405275284"
+                    isCustom="{Boolean}false"
+                    name="AEM Documentation"/>
+                <aem_developers
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9849105520791881"
+                    isCustom="{Boolean}false"
+                    name="AEM developers"/>
+                <showcase_aem
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9840211952802858"
+                    isCustom="{Boolean}false"
+                    name="Showcase AEM"/>
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9810619839004742"
+                    isCustom="{Boolean}false"
+                    name="image"/>
+                <core_wcm
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9804914914565963"
+                    isCustom="{Boolean}false"
+                    name="Core WCM"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditionsMetadata jcr:primaryType="nt:unstructured">
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}179"
+                imageWidth="{Long}319"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}79"
+                imageWidth="{Long}140"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}27"
+                imageWidth="{Long}48"/>
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}1152"
+                imageWidth="{Long}2048"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                imageHeight="{Long}720"
+                imageWidth="{Long}1280"/>
+        </renditionsMetadata>
+    </jcr:content>
+</jcr:root>

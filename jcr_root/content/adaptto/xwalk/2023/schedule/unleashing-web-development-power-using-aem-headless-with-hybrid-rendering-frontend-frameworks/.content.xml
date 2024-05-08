@@ -10,7 +10,7 @@
         sling:resourceType="core/franklin/components/page/v1/page"
         image="https://i.ytimg.com/vi/vkRuh7cEaxw/maxresdefault.jpg"
         pageTitle="Unleashing Web Development Power: Using AEM Headless with Hybrid Rendering Frontend Frameworks - adaptTo() 2023"
-        presentation="https://adapt.to/2023/presentations/adaptto-2023-unleashing-web-development-power-using-aem-headless-with-hybrid-rendering-frontend-frameworks-duy-nguyen-lucian-ghita.pdf"
+        presentation="/content/dam/adaptto/xwalk/presentations/2023/adaptto-2023-unleashing-web-development-power-using-aem-headless-with-hybrid-rendering-frontend-frameworks-duy-nguyen-lucian-ghita.pdf"
         speakers="Duy Nguyen, Lucian Ghita"
         video="https://youtu.be/vkRuh7cEaxw"
         jcr:mixinTypes="[cq:ReplicationStatus]"
