@@ -5,7 +5,7 @@
         cq:isDelivered="{Boolean}false"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="carsten-ziegeler"
+        jcr:title="stefan-seifert"
         sling:resourceType="core/franklin/components/page/v1/page"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
@@ -18,19 +18,20 @@
                 sling:resourceType="core/franklin/components/section/v1/section">
                 <title
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Carsten Ziegeler"
+                    jcr:title="Stefan Seifert"
                     sling:resourceType="core/franklin/components/title/v1/title"
                     type="h1"/>
                 <image
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/franklin/components/image/v1/image"
                     alt="Carsten Ziegeler"
-                    fileReference="/content/dam/adaptto/xwalk/speaker/carsten-ziegeler.jpg"/>
+                    fileReference="/content/dam/adaptto/xwalk/speaker/stefan-seifert.jpg"/>
                 <text
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/franklin/components/text/v1/text"
-                    text="&lt;p&gt;Carsten Ziegeler is working as a Principal Scientist at Adobe Research Switzerland and spends most of his time on architectural and infrastructure topics.&lt;/p&gt;&#xA;&lt;p&gt;Working for over 30 years in open source projects, Carsten is a member of the Apache Software Foundation and heavily participates in several Apache communities including Apache Sling and Apache Felix. He is a frequent speaker on technology and open source conferences. Carsten participates in the OSGi Core Platform and Enterprise expert groups and is on the Board of Directors of the OSGi Alliance.&lt;/p&gt;"/>
+                    text="&lt;p&gt;Stefan has been working as software architect with Adobe Experience Manager (AEM) and the underlying stack for over 15 years.&lt;/p&gt;&#xA;&lt;p&gt;Within the Open Source world Stefan is Member of the Apache Software Foundation, Committer and PMC member for &lt;a href=&quot;https://sling.apache.org/&quot;&gt;&lt;u&gt;Apache Sling&lt;/u&gt;&lt;/a&gt;, Committer for &lt;a href=&quot;https://felix.apache.org/&quot;&gt;&lt;u&gt;Apache Felix&lt;/u&gt;&lt;/a&gt; and Committer and Founder of &lt;a href=&quot;http://wcm.io/&quot;&gt;&lt;u&gt;wcm.io&lt;/u&gt;&lt;/a&gt; and its subprojects.&lt;/p&gt;"/>
             </section>
         </root>
+        <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
