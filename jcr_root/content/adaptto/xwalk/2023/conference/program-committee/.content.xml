@@ -29,7 +29,7 @@
                     sling:resourceType="core/franklin/components/block/v1/block"
                     model="speaker-gallery"
                     name="Speaker Gallery"
-                    speakers="Carsten Ziegeler, Robert Munteanu, Stefan Seifert "/>
+                    speakers="Carsten Ziegeler, Robert Munteanu, Stefan Seifert"/>
                 <text
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/franklin/components/text/v1/text"
