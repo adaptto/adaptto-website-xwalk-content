@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:description="adaptTo() 2023 … 12th edition of Europe&amp;#x27;s leading developer conference for Adobe Experience Manager (AEM) … 25th - 27th September"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="index"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        pageTitle="adaptTo() 2023"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block_1585707285
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    cta1="/content/adaptto/xwalk/2023/index"
+                    cta1Text="Slides &amp; Videos"
+                    cta2="/content/adaptto/xwalk/2023/index"
+                    cta2Text="See photos"
+                    fileReference="/content/dam/adaptto/xwalk/content/stage-header.jpg"
+                    model="stage-header"
+                    name="Stage Header"
+                    text="&lt;h2&gt;Save the Date&lt;/h2&gt;&#xA;&lt;p&gt;adaptTo() 2023&lt;br&gt;25th - 27th September 2023&lt;br&gt;Real-life conference&lt;/p&gt;"/>
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;div class=&quot;section&quot; data-section-status=&quot;loaded&quot;&gt;&#xA;&lt;div class=&quot;default-content-wrapper&quot;&gt;&#xA;&lt;h2 id=&quot;thank-you-for-a-successful-event&quot;&gt;Thank You for a Successful Event!&lt;/h2&gt;&#xA;&lt;p&gt;After last year's break, adaptTo() 2023 has concluded. The event was a tremendous success, and we want to express our gratitude to all the participants, speakers, sponsors, and volunteers who made it possible.&lt;/p&gt;&#xA;&lt;p&gt;What's Next? Recorded Talks: If you missed any sessions or want to revisit the highlights, the recorded talks from adaptTo() 2023 are now available online. Dive back into the wealth of AEM knowledge shared during the event. Stay Connected: Although adaptTo() 2023 has ended, our commitment to the AEM community continues. Stay connected with us on our [social media profiles] and subscribe to our newsletter to receive updates on future events and community activities.&lt;/p&gt;&#xA;&lt;h2 id=&quot;whats-next&quot;&gt;What&amp;rsquo;s next?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Recorded Talks&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you missed any sessions or want to revisit the highlights, the &lt;a href=&quot;https://adapt.to/2023/schedule&quot;&gt;recorded talks from adaptTo() 2023&lt;/a&gt; are now available online. Dive back into the wealth of AEM knowledge shared during the event.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Stay connected&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Although adaptTo() 2023 has ended, our commitment to the AEM community continues. Stay connected with us on our LinkedIn &amp;amp; Twitter and &lt;a href=&quot;https://adapt.to/2023/newsletter&quot;&gt;subscribe to our newsletter&lt;/a&gt; to receive updates on future events and community activities.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mark your calendars&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;2024 adaptTo() will be back! Make sure to mark your calendar and look out for the announcement of the date. Call for Papers and the Ticketshop will open in Spring 2024.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&quot;section embed-youtube-container&quot; data-section-status=&quot;loaded&quot;&gt;&#xA;&lt;div class=&quot;default-content-wrapper&quot;&gt;&#xA;&lt;h2 id=&quot;information-in-a-nutshell&quot;&gt;Information in a Nutshell&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;When and where?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;25th-27th September 2023 at KulturBrauerei in Berlin&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;For whom?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AEM developers&lt;/li&gt;&#xA;&lt;li&gt;AEC experts&lt;/li&gt;&#xA;&lt;li&gt;Apache Sling, Jackrabbit, Felix and wcm.io enthusiasts&lt;/li&gt;&#xA;&lt;li&gt;frontend and backend developers&lt;/li&gt;&#xA;&lt;li&gt;systems architects&lt;/li&gt;&#xA;&lt;li&gt;AEM and AEC newbies with profound technical knowledge&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;What can you expect?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3 full days, packed with expert knowledge&lt;/li&gt;&#xA;&lt;li&gt;inspirational talks by brilliant minds&lt;/li&gt;&#xA;&lt;li&gt;200 passionate attendees from all over Europe and the world&lt;/li&gt;&#xA;&lt;li&gt;well-organized event as well as competent support before and during the event&lt;/li&gt;&#xA;&lt;li&gt;a safe place to learn from the best, share ideas and get connected beyond the event&lt;/li&gt;&#xA;&lt;li&gt;an open-minded OSS community&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about the tickets?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tickets are available &lt;a href=&quot;https://adapt.to/2023/sign-up/tickets&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t want to miss out on our Early Bird Tickets Sale, make sure to sign up for our &lt;a href=&quot;https://adapt.to/2023/newsletter&quot;&gt;adaptTo() newsletter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Still not convinced? No problem at all. &lt;a href=&quot;https://adapt.to/2023/conference&quot;&gt;Click here&lt;/a&gt; to learn more about the conference in more detail and to see impressions from the past years.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;"/>
+                <block
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    model="embed-youtube"
+                    name="Embed YouTube"
+                    videoUrl="https://www.youtube.com/watch?v=rNl-uXa530Q"/>
+                <text_662337239
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;div class=&quot;default-content-wrapper&quot;&gt;&#xA;&lt;h2 id=&quot;looking-back-adaptto-2019-2021&quot;&gt;Looking back: adaptTo() 2019-2021&lt;/h2&gt;&#xA;&lt;p&gt;All talks of recent adaptTo() conferences are published on &lt;a href=&quot;https://www.youtube.com/c/adaptTo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;our channel&lt;/a&gt; on Youtube (and linked in the schedule pages: &lt;a href=&quot;https://adapt.to/2019/schedule&quot;&gt;2019&lt;/a&gt;, &lt;a href=&quot;https://adapt.to/2020/schedule&quot;&gt;2020&lt;/a&gt; and &lt;a href=&quot;https://adapt.to/2021/schedule&quot;&gt;2021&lt;/a&gt;).&lt;br&gt;You will find all pictures in our image galleries &lt;a href=&quot;https://adapt.to/2019/conference/gallery&quot;&gt;2019&lt;/a&gt;, &lt;a href=&quot;https://adapt.to/2020/conference/gallery&quot;&gt;2020&lt;/a&gt; and &lt;a href=&quot;https://adapt.to/2021/conference/gallery&quot;&gt;2021&lt;/a&gt; - check it out.&lt;/p&gt;&#xA;&lt;/div&gt;"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

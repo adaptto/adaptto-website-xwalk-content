@@ -5,7 +5,7 @@
         cq:isDelivered="{Boolean}false"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="carsten-ziegeler"
+        jcr:title="Carsten Ziegeler"
         sling:resourceType="core/franklin/components/page/v1/page"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
@@ -32,5 +32,6 @@
                     text="&lt;p&gt;Carsten Ziegeler is working as a Principal Scientist at Adobe Research Switzerland and spends most of his time on architectural and infrastructure topics.&lt;/p&gt;&#xA;&lt;p&gt;Working for over 30 years in open source projects, Carsten is a member of the Apache Software Foundation and heavily participates in several Apache communities including Apache Sling and Apache Felix. He is a frequent speaker on technology and open source conferences. Carsten participates in the OSGi Core Platform and Enterprise expert groups and is on the Board of Directors of the OSGi Alliance.&lt;/p&gt;"/>
             </section>
         </root>
+        <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

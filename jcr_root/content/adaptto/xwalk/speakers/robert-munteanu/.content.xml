@@ -5,7 +5,7 @@
         cq:isDelivered="{Boolean}false"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="robert-munteanu"
+        jcr:title="Robert Munteanu"
         sling:resourceType="core/franklin/components/page/v1/page"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"

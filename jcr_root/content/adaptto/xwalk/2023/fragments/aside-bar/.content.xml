@@ -30,6 +30,28 @@
                         name="Sponsor Teaser Item"
                         sponsorLink="https://diva-e.com/"
                         text="&lt;h1&gt;Organizer&lt;/h1&gt;"/>
+                    <item_740073637
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        fileReference="/content/dam/adaptto/xwalk/sponsor-logos/adobe-gold-sponsor.png"
+                        model="sponsor-teaser-item"
+                        name="Sponsor Teaser Item"
+                        sponsorLink="https://www.adobe.com/ "
+                        text="&lt;h1&gt;Sponsors&lt;/h1&gt;"/>
+                    <item_1605733263
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        fileReference="/content/dam/adaptto/xwalk/sponsor-logos/hirobe-silver-sponsor.png"
+                        model="sponsor-teaser-item"
+                        name="Sponsor Teaser Item"
+                        sponsorLink="https://www.hirobe.io/"/>
+                    <item_911086855
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        fileReference="/content/dam/adaptto/xwalk/sponsor-logos/eurowings-digital-silver-sponsor.png"
+                        model="sponsor-teaser-item"
+                        name="Sponsor Teaser Item"
+                        sponsorLink="https://eurowings-digital.de/"/>
                 </block_1354060911>
                 <block
                     jcr:primaryType="nt:unstructured"
