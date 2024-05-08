@@ -3,6 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:isDelivered="{Boolean}false"
+        cq:tags="[adaptto:aem]"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="What’s up with Core Components?"

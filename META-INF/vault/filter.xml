@@ -3,4 +3,5 @@
     <filter root="/content/adaptto/xwalk"/>
     <filter root="/content/dam/adaptto/xwalk"/>
     <filter root="/conf/adaptto/xwalk"/>
+    <filter root="/content/cq:tags/adaptto"/>
 </workspaceFilter>

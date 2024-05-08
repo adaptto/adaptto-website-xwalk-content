@@ -3,6 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:isDelivered="{Boolean}false"
+        cq:tags="[adaptto:aem,adaptto:frontend]"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Unleashing Web Development Power: Using AEM Headless with Hybrid Rendering Frontend Frameworks"
