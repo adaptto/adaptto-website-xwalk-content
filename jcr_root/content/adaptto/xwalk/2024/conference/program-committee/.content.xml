@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Program Committee"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        include-aside-bar="false"
+        include-teaser-bar="false"
+        pageTitle="Program Committee - adaptTo() 2024"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
+        cq:lastReplicationAction="Activate">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    model="speaker-gallery"
+                    name="Speaker Gallery"
+                    speakers="Carsten Ziegeler, Robert Munteanu, Stefan Seifert "/>
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p&gt;The adaptTo() Program Committee is responsible for defining the agenda of the conference. It is responsible for defining the Call for Papers (CfP), reviewing the proposals submitted, making final decisions regarding acceptance of proposals, and defining the event’s timetable.&lt;/p&gt;"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

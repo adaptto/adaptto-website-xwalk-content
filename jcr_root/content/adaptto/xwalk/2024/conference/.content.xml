@@ -25,4 +25,5 @@
         </root>
         <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
+    <program-committee/>
 </jcr:root>
