@@ -7,6 +7,8 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Robert Munteanu"
         sling:resourceType="core/franklin/components/page/v1/page"
+        affiliation="Adobe"
+        twitter="@rombert"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
         cq:lastReplicationAction="Activate">
