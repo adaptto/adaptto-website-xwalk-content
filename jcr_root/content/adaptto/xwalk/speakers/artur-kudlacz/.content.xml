@@ -3,17 +3,11 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:tags="[adaptto:aem]"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="What’s up with Core Components?"
+        jcr:title="Artur Kudlacz"
         sling:resourceType="core/franklin/components/page/v1/page"
-        image="https://i.ytimg.com/vi/46d9od04BJQ/maxresdefault.jpg"
-        pageTitle="What’s up with Core Components? - adaptTo() 2023"
-        presentation="/content/dam/adaptto/xwalk/presentations/2023/adaptto-2023-whats-up-with-core-components-vlad-bailescu.pdf"
-        source-code="https://github.com/adobe/aem-core-wcm-components/"
-        speakers="Vlad Băilescu"
-        video="https://youtu.be/46d9od04BJQ"
+        affiliation="Adobe"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
         cq:lastReplicationAction="Activate">
@@ -25,13 +19,18 @@
                 sling:resourceType="core/franklin/components/section/v1/section">
                 <title
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="What’s up with Core Components?"
+                    jcr:title="Artur Kudlacz"
                     sling:resourceType="core/franklin/components/title/v1/title"
                     type="h1"/>
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/image/v1/image"
+                    alt="Carsten Ziegeler"
+                    fileReference="/content/dam/adaptto/xwalk/speaker/artur-kudlacz.jpg"/>
                 <text
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/franklin/components/text/v1/text"
-                    text="&lt;ul&gt;&#xA; &lt;li&gt;Showcasing the latest additions to Core Components&lt;/li&gt;&#xA; &lt;li&gt;Introduction to the Form Components and Email Components&lt;/li&gt;&#xA; &lt;li&gt;Future of Core Components&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+                    text="&lt;p&gt;Artur is a seasoned front-end engineer with nearly 12 years of experience working for Adobe. Previously involved in implementation of client-side personalization routines and AEM Page and Template editors, demonstrating his understanding of user experience and content management.&lt;/p&gt;&#xA;&lt;p&gt;Currently, he is part of a group developing the Universal Page Editor, innovative product which is enabling content authors to edit any web App serving content that is instrumented in a certain way. Attendees can expect to learn about Universal Editor, instrumentation, user experience, and content management, as well as gain insights into opportunities associated with the new tool.&lt;/p&gt;"/>
             </section>
         </root>
         <image jcr:primaryType="nt:unstructured"/>
