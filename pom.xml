@@ -44,7 +44,8 @@
                 <validRoots>
                   /conf/adaptto,
                   /content/adaptto,
-                  /content/dam/adaptto
+                  /content/dam/adaptto,
+                  /content/cq:tags
                 </validRoots>
                 <severityForUncoveredAncestorNodes>debug</severityForUncoveredAncestorNodes>
               </options>

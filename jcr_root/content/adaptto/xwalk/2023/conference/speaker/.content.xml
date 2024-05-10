@@ -5,10 +5,11 @@
         cq:isDelivered="{Boolean}false"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Schedule"
+        jcr:title="Speaker"
         sling:resourceType="core/franklin/components/page/v1/page"
+        include-aside-bar="false"
         include-teaser-bar="false"
-        pageTitle="Schedule - adaptTo() 2023"
+        pageTitle="Speaker - adaptTo() 2023"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
         cq:lastReplicationAction="Activate">
@@ -20,23 +21,17 @@
                 sling:resourceType="core/franklin/components/section/v1/section">
                 <title
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Schedule"
+                    jcr:title="Speaker"
                     sling:resourceType="core/franklin/components/title/v1/title"
                     type="h1"/>
-                <text
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/franklin/components/text/v1/text"
-                    text="&lt;p&gt;See a list of &lt;a href=&quot;/content/adaptto/xwalk/2023/conference/speaker&quot;&gt;all speakers&lt;/a&gt;.&lt;/p&gt;"/>
                 <block
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/franklin/components/block/v1/block"
-                    model="schedule"
-                    name="Schedule"/>
+                    key-value="true"
+                    model="speaker-gallery"
+                    name="Speaker Gallery"/>
             </section>
         </root>
         <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
-    <whats-up-with-core-components/>
-    <edit-anything-with-the-universal-editor/>
-    <unleashing-web-development-power-using-aem-headless-with-hybrid-rendering-frontend-frameworks/>
 </jcr:root>
