@@ -25,9 +25,57 @@
                 <block
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/franklin/components/block/v1/block"
-                    image="[/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4011.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4012.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4017.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4024.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4048.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4709.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4721.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4988.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_5019.jpg,/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_5053.jpg]"
-                    model="image-gallery"
-                    name="Image Gallery"/>
+                    filter="image-gallery-item"
+                    name="Image Gallery">
+                    <item_4011
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4011.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                    <item_4012
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4012.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                    <item_4017
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4017.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                    <item_4024
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4024.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                    <item_4048
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4048.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                    <item_4709
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_4709.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                    <item_5019
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_5019.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                    <item_5053
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/adaptto/xwalk/gallery/2023/230925_AdaptTo_SWieland_5053.jpg"
+                        model="image-gallery-item"
+                        name="Image Gallery Item"/>
+                </block>
             </section>
         </root>
     </jcr:content>
