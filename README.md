@@ -1,7 +1,7 @@
-adaptto-website-xwalk-content
+adaptTo() Website - X-Walk Experimental - Sample Content
 =============================
 
-AEM site content for https://github.com/adaptto/adaptto-website-xwalk
+AEM site content for https://github.com/adaptto/adaptto-website-xwalk (Experimental)
 
 
 Up- and Download Content from AEMaaCS author instance
