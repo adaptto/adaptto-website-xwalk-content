@@ -2,10 +2,12 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:isDelivered="{Boolean}false"
         cq:template="/libs/core/franklin/templates/page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="2023"
+        jcr:title="Archive"
         sling:resourceType="core/franklin/components/page/v1/page"
+        pageTitle="Archive - adaptTo() 2024"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         cq:lastReplicated="{Date}2024-04-30T00:00:00.000+02:00"
         cq:lastReplicationAction="Activate">
@@ -14,15 +16,18 @@
             sling:resourceType="core/franklin/components/root/v1/root">
             <section
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/franklin/components/section/v1/section"/>
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Talk Archive"
+                    sling:resourceType="core/franklin/components/title/v1/title"/>
+                <block
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    model="talk-archive"
+                    name="Talk Archive"/>
+            </section>
         </root>
+        <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
-    <fragments/>
-    <conference/>
-    <footer/>
-    <index/>
-    <nav/>
-    <schedule/>
-    <archive/>
-    <schedule-data/>
 </jcr:root>
