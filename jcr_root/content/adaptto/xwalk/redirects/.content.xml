@@ -14,7 +14,7 @@
         cq:lastReplicationAction="Activate">
         <row
             jcr:primaryType="nt:unstructured"
-            destination="/2024/"
+            destination="/2023/"
             source="/"/>
         <row_1740238219
             jcr:primaryType="nt:unstructured"
